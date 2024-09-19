@@ -1,0 +1,17 @@
+{
+	"name": "ydc",
+	"description": "NodeJS application local config downloader from Yandex.Disk",
+	"version": "1.0.0",
+	"type": "module",
+	"main": "index.js",
+	"author": "Ivan Lartsov <lartsov@gmail.com>",
+	"homepage": "https://github.com/lis355/ydc",
+	"license": "MIT",
+	"devDependencies": {
+		"eslint": "^9.10.0"
+	},
+	"dependencies": {
+		"content-disposition": "^0.5.4",
+		"dotenv": "^16.4.5"
+	}
+}
