@@ -1,7 +1,7 @@
 {
 	"name": "ydc",
 	"description": "NodeJS application local config downloader from Yandex.Disk",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"type": "module",
 	"main": "index.js",
 	"author": "Ivan Lartsov <lartsov@gmail.com>",

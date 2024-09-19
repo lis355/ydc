@@ -85,7 +85,7 @@ export default async function () {
 					fileName = contentInfo.parameters.filename;
 					const text = await streamConsumers.text(fileResponse.body);
 					const parsedConfig = dotenv.parse(text);
-					dotenv.populate(process.env, parsedConfig);
+					dotenv.populate(process.env, parsedConfig, { override: true });
 
 					log(`Environment file ${fileName} with ${Object.keys(parsedConfig).length} keys loaded to process.env`);
 				} catch (error) {

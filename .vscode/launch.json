@@ -10,7 +10,7 @@
 			"skipFiles": [
 				"<node_internals>/**"
 			],
-			"name": "simply",
+			"name": "example",
 			"program": "${workspaceFolder}/example/main.js",
 			"cwd": "${workspaceFolder}/example/",
 		}
